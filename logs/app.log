@@ -1,0 +1,52 @@
+2021-11-13 07:58:41,027 INFO cs.demo.loganalyzer.LogAnalyzerApplication [main] Starting LogAnalyzerApplication using Java 15.0.2 on P5LAP-7172VGG with PID 1940 (C:\Users\vikas.kirange\git\LogAnalyzerApplication\LogAnalyzerApplication\target\classes started by vikas.kirange in C:\Users\vikas.kirange\git\LogAnalyzerApplication\LogAnalyzerApplication)
+2021-11-13 07:58:41,032 INFO cs.demo.loganalyzer.LogAnalyzerApplication [main] No active profile set, falling back to default profiles: default
+2021-11-13 07:58:46,926 INFO cs.demo.loganalyzer.LogAnalyzerApplication [main] Started LogAnalyzerApplication in 6.439 seconds (JVM running for 7.49)
+2021-11-13 08:00:25,124 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] Start reading the logfile at :logfile.txt
+2021-11-13 08:00:25,275 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] LogRecordDetails(id=scsmbstgra, state=STARTED, type=APPLICATION_LOG, host=12345, timestamp=1491377495212)
+2021-11-13 08:00:25,281 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] LogRecordDetails(id=scsmbstgrb, state=STARTED, type=null, host=null, timestamp=1491377495213)
+2021-11-13 08:00:25,284 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] LogRecordDetails(id=scsmbstgrc, state=FINISHED, type=null, host=null, timestamp=1491377495218)
+2021-11-13 08:00:25,290 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] LogRecordDetails(id=scsmbstgra, state=FINISHED, type=APPLICATION_LOG, host=12345, timestamp=1491377495217)
+2021-11-13 08:00:25,291 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] !!! Execution time for the event scsmbstgra is 5ms
+2021-11-13 08:00:25,291 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] Persisting 1 eventAlerts...
+2021-11-13 08:00:25,525 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] LogRecordDetails(id=scsmbstgrc, state=STARTED, type=null, host=null, timestamp=1491377495210)
+2021-11-13 08:00:25,526 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] !!! Execution time for the event scsmbstgrc is 8ms
+2021-11-13 08:00:25,526 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] Persisting 1 eventAlerts...
+2021-11-13 08:00:25,543 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] LogRecordDetails(id=scsmbstgrb, state=FINISHED, type=null, host=null, timestamp=1491377495216)
+2021-11-13 08:00:25,544 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] !!! Execution time for the event scsmbstgrb is 3ms
+2021-11-13 08:00:25,544 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] Persisting 1 eventAlerts...
+2021-11-13 08:00:25,549 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] logEventAlertsMap is :{}
+2021-11-13 08:00:25,549 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-4] Complete processing in Service.
+2021-11-13 08:01:20,700 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] Start reading the logfile at :logfile.txt
+2021-11-13 08:01:20,705 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] LogRecordDetails(id=scsmbstgra, state=STARTED, type=APPLICATION_LOG, host=12345, timestamp=1491377495212)
+2021-11-13 08:01:20,707 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] LogRecordDetails(id=scsmbstgrb, state=STARTED, type=null, host=null, timestamp=1491377495213)
+2021-11-13 08:01:20,709 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] LogRecordDetails(id=scsmbstgrc, state=FINISHED, type=null, host=null, timestamp=1491377495218)
+2021-11-13 08:01:20,710 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] LogRecordDetails(id=scsmbstgra, state=FINISHED, type=APPLICATION_LOG, host=12345, timestamp=1491377495217)
+2021-11-13 08:01:20,710 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] !!! Execution time for the event scsmbstgra is 5ms
+2021-11-13 08:01:20,711 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] Persisting 1 eventAlerts...
+2021-11-13 08:01:20,726 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] LogRecordDetails(id=scsmbstgrc, state=STARTED, type=null, host=null, timestamp=1491377495210)
+2021-11-13 08:01:20,727 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] !!! Execution time for the event scsmbstgrc is 8ms
+2021-11-13 08:01:20,727 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] Persisting 1 eventAlerts...
+2021-11-13 08:01:20,731 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] LogRecordDetails(id=scsmbstgrb, state=FINISHED, type=null, host=null, timestamp=1491377495216)
+2021-11-13 08:01:20,731 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] !!! Execution time for the event scsmbstgrb is 3ms
+2021-11-13 08:01:20,732 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] Persisting 1 eventAlerts...
+2021-11-13 08:01:20,738 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] logEventAlertsMap is :{}
+2021-11-13 08:01:20,739 INFO cs.demo.loganalyzer.service.LogAnalyzerService [http-nio-8085-exec-6] Complete processing in Service.
+2021-11-13 08:01:49,332 INFO cs.demo.loganalyzer.LogAnalyzerServiceTest [main] Starting LogAnalyzerServiceTest using Java 15.0.2 on P5LAP-7172VGG with PID 16544 (started by vikas.kirange in C:\Users\vikas.kirange\git\LogAnalyzerApplication\LogAnalyzerApplication)
+2021-11-13 08:01:49,350 INFO cs.demo.loganalyzer.LogAnalyzerServiceTest [main] No active profile set, falling back to default profiles: default
+2021-11-13 08:01:59,032 INFO cs.demo.loganalyzer.LogAnalyzerServiceTest [main] Started LogAnalyzerServiceTest in 10.494 seconds (JVM running for 13.662)
+2021-11-13 08:01:59,741 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] Start reading the logfile at :/logfile.txt
+2021-11-13 08:01:59,888 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] LogRecordDetails(id=scsmbstgra, state=STARTED, type=APPLICATION_LOG, host=12345, timestamp=1491377495212)
+2021-11-13 08:01:59,894 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] LogRecordDetails(id=scsmbstgrb, state=STARTED, type=null, host=null, timestamp=1491377495213)
+2021-11-13 08:01:59,897 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] LogRecordDetails(id=scsmbstgrc, state=FINISHED, type=null, host=null, timestamp=1491377495218)
+2021-11-13 08:01:59,901 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] LogRecordDetails(id=scsmbstgra, state=FINISHED, type=APPLICATION_LOG, host=12345, timestamp=1491377495217)
+2021-11-13 08:01:59,902 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] !!! Execution time for the event scsmbstgra is 5ms
+2021-11-13 08:01:59,902 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] Persisting 1 eventAlerts...
+2021-11-13 08:02:00,116 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] LogRecordDetails(id=scsmbstgrc, state=STARTED, type=null, host=null, timestamp=1491377495210)
+2021-11-13 08:02:00,116 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] !!! Execution time for the event scsmbstgrc is 8ms
+2021-11-13 08:02:00,117 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] Persisting 1 eventAlerts...
+2021-11-13 08:02:00,126 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] LogRecordDetails(id=scsmbstgrb, state=FINISHED, type=null, host=null, timestamp=1491377495216)
+2021-11-13 08:02:00,127 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] !!! Execution time for the event scsmbstgrb is 3ms
+2021-11-13 08:02:00,127 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] Persisting 1 eventAlerts...
+2021-11-13 08:02:00,134 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] logEventAlertsMap is :{}
+2021-11-13 08:02:00,134 INFO cs.demo.loganalyzer.service.LogAnalyzerService [main] Complete processing in Service.
+2021-11-13 08:02:00,307 INFO cs.demo.loganalyzer.LogAnalyzerServiceTest [main] Total count of record in event_alert table:3
